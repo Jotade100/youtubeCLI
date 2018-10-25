@@ -1,4 +1,4 @@
-# videitos
+# videitos :movie_camera:
 
 Una CLI para ver los datos de una dirección de Youtube, sus principales estadísticas o descargar un vídeo.
 
@@ -70,6 +70,15 @@ Las opciones que pueden usarse en éste comando son:
 	--format, <.format> 
 ```
 Para evitar errores en la muestra recomendamos usar URL planas como https://www.youtube.com/watch?v=LHjbRMIIhuM. El nombre del archivo *--name* y formato *--format* son comandos opcionales. Por defecto descargará el archivo así: videitoDescargado.mp4 
+
+## Instalación
+
+Para instarlo basta con usar la siguiente sentencia en la línea de comandos de tu ordenador. Recuerda tener **node** instalado en tu máquina. :computer:
+
+```
+npm install videitos
+```
+
 
 ## Autor
 
