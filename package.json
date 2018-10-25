@@ -1,10 +1,24 @@
 {
   "name": "videitos",
   "version": "1.0.0",
-  "license": "MIT",
+  "license": "la mía XD",
+  "homepage": "https://github.com/Jotade100/youtubeCLI/blob/master/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jotade100/youtubeCLI.git"
+  },
+  "engines": {
+    "node": ">=8"
+  },
   "bin": {
     "videitos": "bin/outside"
   },
+  "keywords": [
+    "videitos",
+    "youtube",
+    "descargar"
+  ],
+  "preferGlobal": true,
   "scripts": {},
   "devDependencies": {},
   "dependencies": {
