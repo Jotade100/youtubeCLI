@@ -1,0 +1,16 @@
+{
+  "name": "videitos",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "videitos": "bin/outside"
+  },
+  "scripts": {},
+  "devDependencies": {},
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "minimist": "^1.2.0",
+    "ora": "^3.0.0",
+    "youtube-dl": "^1.11.1"
+  }
+}
