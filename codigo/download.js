@@ -22,4 +22,6 @@ module.exports = async (args) => {
 	});
 	 
 	video.pipe(fs.createWriteStream(name + format));
+	spinner.stop();
+	console.log('La descarga ha terminado');
 }
