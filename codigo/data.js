@@ -6,7 +6,9 @@ module.exports = async (args) => {
 	spinner.start()
     const url = args.url || args.l
 	youtubedl.getInfo(url, function(err, info) {
-	  if (err) throw err;
+	  if (err) {
+		  console.error(err);
+		  process.exit(1);};
 	  
 	  //console.log(info);
 	  console.log('id:', info.id);

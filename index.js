@@ -2,7 +2,8 @@ const minimist = require('minimist')
 
 module.exports = () => {
   const args = minimist(process.argv.slice(2))
-  console.log(args)
+  //console.log(args)
+  console.log("Está usando videitos por Juan Diego ;)")
   let cmd = args._[0] || 'help'
 
   if (args.version || args.v) {
